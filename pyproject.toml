@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "pelican-series-plugin"
-version = "1.0.1"
+version = "1.0.2"
 description = "An installable version of the original Pelican Series plugin"
 authors = ["Johan Vergeer <johanvergeer@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["pelican", "plugin"]
-repository = "https://github.com/johanvergeer/pelican-series"
+repository = "https://github.com/johanvergeer/pelican-series-plugin"
 packages = [
     { include = "pelican" },
 ]
@@ -31,8 +31,8 @@ classifiers = [
 [tool.poetry.urls]
 "Documentation" = "https://docs.getpelican.com/"
 "Funding" = "https://donate.getpelican.com/"
-"Source" = "https://github.com/johanvergeer/pelican-series"
-"Tracker" = "https://github.com/johanvergeer/pelican-series/issues"
+"Source" = "https://github.com/johanvergeer/pelican-series-plugin"
+"Tracker" = "https://github.com/johanvergeer/pelican-series-plugin/issues"
 
 [tool.poetry.dependencies]
 python = "^3.6"
