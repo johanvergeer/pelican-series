@@ -63,7 +63,7 @@ Next add it to the `PLUGINS` section in `pelicanconf.py`
 ```python
 PLUGINS = [
     '...',
-    'pelican.plugins.pelican_series',
+    'pelican.plugins.series',
     '...'
 ]
 ```
