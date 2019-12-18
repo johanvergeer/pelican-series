@@ -56,7 +56,7 @@ Joins articles in a series and provides variables to manage the series in the te
 
 This plugin can be installed via:
 
-    pip install pelican-series
+    pip install pelican-series-plugin
     
 Next add it to the `PLUGINS` section in `pelicanconf.py`
 
