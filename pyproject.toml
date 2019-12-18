@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "pelican-series"
+name = "pelican-series-plugin"
 version = "0.1.0"
-description = "An installable version of the original Pelical Series plugin"
+description = "An installable version of the original Pelican Series plugin"
 authors = ["Johan Vergeer <johanvergeer@gmail.com>"]
 license = "MIT"
 readme = "README.md"
