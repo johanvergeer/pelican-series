@@ -35,6 +35,8 @@ The plugin provides the following variables to your templates
     * `article.series.all_next` is an ordered list of the articles published after the current one
     * `article.series.previous` is the previous article in the series (a shortcut to `article.series.all_previous[-1]`)
     * `article.series.next` is the next article in the series (a shortcut to `article.series.all_next[0]`)
+    * `article.series.first` is the first article in the series
+    * `article.series.last` is the last article in the series
 
 For example:
 
@@ -57,7 +59,7 @@ Joins articles in a series and provides variables to manage the series in the te
 This plugin can be installed via:
 
     pip install pelican-series-plugin
-    
+
 Next add it to the `PLUGINS` section in `pelicanconf.py`
 
 ```python
@@ -70,7 +72,9 @@ PLUGINS = [
 
 ## Contributing
 
-Contributions are welcome and much appreciated. Every little bit helps. You can contribute by improving the documentation, adding missing features, and fixing bugs. You can also help out by reviewing and commenting on [existing issues][].
+Contributions are welcome and much appreciated. Every little bit helps.
+You can contribute by improving the documentation, adding missing features, and fixing bugs.
+You can also help out by reviewing and commenting on [existing issues][].
 
 To start contributing to this plugin, review the [Contributing to Pelican][] documentation, beginning with the **Contributing Code** section.
 
