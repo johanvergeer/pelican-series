@@ -73,6 +73,8 @@ def aggregate_series(generator: ArticlesGenerator) -> None:
                 "all_previous": ordered_articles[0:index],
                 "all_next": ordered_articles[index + 1 :],
                 "previous": ordered_articles[index - 1] if index > 0 else None,
+                "first": ordered_articles[0],
+                "last": ordered_articles[-1],
             }
 
             try:
