@@ -1,3 +1,5 @@
+THIS REPO IS NO LONGER MAINTAINED
+
 # Pelican Series: A Plugin for Pelican
 
 This plugin extends the original series plugin by [FELD Boris <lothiraldan@gmail.com>](https://github.com/Lothiraldan)
